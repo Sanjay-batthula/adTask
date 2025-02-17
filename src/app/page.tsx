@@ -13,7 +13,6 @@ import {
   Phone,
   SquareDashedMousePointer,
   TrendingUpIcon,
-  WandSparkles,
 } from "lucide-react";
 import { HoverBorderGradient } from "@/components/components/FramerButton";
 import { BorderBeam } from "@/components/magicui/border-beam";
