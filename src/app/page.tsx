@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from 'next/link';
 
 import Header from "@/components/components/header";
 import {
@@ -773,12 +774,12 @@ export default function Home() {
                 </h2>
                 <div className="flex flex-row gap-3 items-end">
                   <Mail className="w-4 h-4 text-[#8096D2]" />
-                  <a
+                  <Link
                     href="mailto:contact@adtask.ai"
                     className="font-light text-[#C5CDE3] hover:text-[#8096D2] transition-colors underline text-sm"
                   >
                     contact@adtask.ai
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex flex-row gap-3 items-end">
                   <MapPin className="w-4 h-4 text-[#8096D2]" />
@@ -796,30 +797,30 @@ export default function Home() {
                     Utilities
                   </h3>
                   <nav className="flex flex-col text-gray-400 gap-1 items-center">
-                    <a
+                    <Link
                       href="/"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Home
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/product"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Product
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/tools"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Tools
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/contact"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </nav>
                 </div>
 
@@ -829,30 +830,30 @@ export default function Home() {
                     Socials
                   </h3>
                   <nav className="flex flex-col text-gray-400 gap-1 items-center">
-                    <a
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       X
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       LinkedIn
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Instagram
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Facebook
-                    </a>
+                    </Link>
                   </nav>
                 </div>
               </div>

@@ -11,7 +11,6 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { AlignJustify, Phone } from "lucide-react";
-import { Poppins } from 'next/font/google'
 
 const Header = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
