@@ -14,6 +14,7 @@ import {
   Phone,
   SquareDashedMousePointer,
   TrendingUpIcon,
+  Sparkles,
 } from "lucide-react";
 import { HoverBorderGradient } from "@/components/components/FramerButton";
 import { BorderBeam } from "@/components/magicui/border-beam";
@@ -69,12 +70,8 @@ export default function Home() {
                 }}
               />
 
-              <Image 
-                src="/vector.png"
-                alt="Vector icon"
-                width={16}
-                height={16}
-                className="relative z-10"
+              <Sparkles 
+                className="w-4 h-4 text-white/90 relative z-10"
               />
               <p className="relative z-10">
                 TRANSFORM YOUR DIGITAL PRESENCE WITH AI AGENTS
