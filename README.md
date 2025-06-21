@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AdTask 🚀
+A sleek, responsive image gallery built with a Masonry layout, powered by Next.js and Tailwind CSS. This project showcases a beautiful, interactive experience for exploring, searching, and enjoying images.
 
-## Getting Started
+🌟 Features
+Responsive Masonry Gallery
+Dynamic, Pinterest-style layout that adapts to all screen sizes.
 
-First, run the development server:
+Image Modal & Slideshow
+Click any image to expand it in a modal, and effortlessly navigate through the gallery.
 
-```bash
+Search Functionality
+Find images instantly using keywords—ideal for targeted browsing.
+
+Load More Button
+Keep scrolling and click “Load More” to fetch additional content without page reloads.
+
+Mobile-Friendly
+Fully responsive, ensuring smooth browsing on both mobile and desktop devices.
+
+🧱 Tech Stack
+Next.js – SSR/SSG, routing, and optimized performance.
+
+Tailwind CSS – Rapid styling with utility-first flexibility.
+
+Masonry.js – Clean, adaptive grid layouts.
+
+React Hooks – Smooth state handling and side effects.
+
+Vercel – Fast, effortless deployment.
+
+🚀 Getting Started
+Prerequisites
+Node.js (v16+)
+
+npm or Yarn
+
+Installation
+bash
+Copy
+Edit
+git clone https://github.com/Aliozzaim/AdTask.git
+cd AdTask
+npm install
+Running locally
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then open http://localhost:3000 to explore the gallery.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Building for production
+bash
+Copy
+Edit
+npm run build
+npm start
+🛠️ Project Structure
+bash
+Copy
+Edit
+/src
+  ├── components/   # Navbar, Modal, Gallery, SearchBar, etc.
+  ├── pages/        # Next.js routes
+  ├── styles/       # Tailwind and custom CSS
+  └── utils/        # Helpers and hook files
+/public             # Static assets (images/logos/favicon)
+🤝 Contributing
+Contributions are welcome! Whether it's a bug fix, feature improvement, or design tweak:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Fork the repo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a feature branch (git checkout -b feature/YourIdea)
 
-## Learn More
+Make your changes and commit (git commit -m "Add cool new feature")
 
-To learn more about Next.js, take a look at the following resources:
+Push to your branch (git push origin feature/YourIdea)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📜 License
+Distributed under the MIT License. See LICENSE for details.
 
-## Deploy on Vercel
+🔗 Live Demo
+Check out the live version: adtask.vercel.app – a slick and interactive image gallery you can play with! 
+github.com
++1
+v0.dev
++1
+metizsoft.com
++2
+vercel.com
++2
+vercel.com
++2
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✨ Acknowledgments
+Inspired by Masonry.js and minimalist gallery designs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with 💖 by Sanjay
